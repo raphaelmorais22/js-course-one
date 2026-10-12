@@ -15,3 +15,15 @@ m tall.
 § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
 m tall.
 */
+const markHeight = 1.69;
+const markMass = 78;
+const johnHeight = 1.95;
+const johnmass = 92;
+//bmi calculus
+let markBmi = markMass / Math.pow(markHeight,2);
+let johnBmi = johnmass / Math.pow(johnHeight,2);
+console.log("Mark bmi "+markBmi+" john bmi "+johnBmi);
+//comparison operators
+const markHigherBMI = markBmi > johnBmi;
+//message;
+console.log("is mark bmi higher than jons? "+markHigherBMI);
